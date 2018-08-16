@@ -1,0 +1,224 @@
+
+#masterDiv{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 8%;
+}
+h1{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    font-family: "Courier New", Helvetica, serif;
+}
+h2{
+    color: white;
+    font-family: "Courier New", Helvetica, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2rem;
+    font-family: "Courier New", Helvetica, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-family: "Courier New", Helvetica, serif;
+}
+p{
+    margin: 10px 0, 0;
+    color: white;
+    font-size: 1rem;
+    font-family: "Courier New", Helvetica, serif;
+    padding: 0;
+    text-align: center;
+}
+
+#firstDiv{
+    width: 350px;
+    height: 500px;
+    background-color: #f8f9fa;
+    float: left;
+}
+#secondDiv{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    float: left;
+    text-align: center;
+}
+
+#eduDiv{
+    width: 100%;
+    height: 95px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8f9fa;
+    text-align: center;  
+    margin-top: 8%;
+}
+
+#eduStuff{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 450px;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-align: left;
+}
+
+.timeline{
+    position: relative;
+    margin-top: 0px !important;
+    margin: 100px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.timeline:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 85%;
+    background: white;
+
+}
+.timeline ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.content{
+    padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd):before
+{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -8.5px;
+    width: 15px;
+    height: 15px;
+    background: rgba(255,255,255,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.2);
+}
+.timeline ul li:nth-child(even):before
+{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -6.5px;
+    width: 15px;
+    height: 15px;
+    background: rgba(255,255,255,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.2);
+}
+.timeline ul li:nth-child(odd) .time
+{
+    position: absolute;
+    top: 16px;
+    bottom: 114px;
+    right: -285px;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: rgba(255,255,255,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.4);
+}
+.timeline ul li:nth-child(even) .time
+{
+    position: absolute;
+    top: 19px;
+    bottom: 114px;
+    left: -265px;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: rgba(255,255,255,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.4);
+}
+
+#expDiv{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 95px;
+    padding-right: 15px;
+    margin-top: 8%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+#expStuff{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-align: left;
+}
+#skillsDiv{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 95px;
+    padding-right: 15px;
+    margin-top: 8%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8f9fa;
+    text-align: center;
+}

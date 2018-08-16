@@ -3880,6 +3880,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 1rem 1rem;
+  font-family: "Courier New", Helvetica, serif;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4003,7 +4004,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 450;
+  padding-left: 420;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4023,6 +4024,7 @@ input[type="button"].btn-block {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 2rem;
+  font-family: "Courier New", Helvetica, serif;
 }
 
 .navbar-collapse {
