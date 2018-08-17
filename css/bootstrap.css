@@ -4004,7 +4004,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 420;
+  padding-left: 220;
   margin-bottom: 0;
   list-style: none;
 }
