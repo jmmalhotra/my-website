@@ -56,12 +56,33 @@ p{
     float: left;
     text-align: center;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#secondDiv li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+#secondDiv li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all ease-in-out 250ms;
+}
+#secondDiv li a:hover{
+    color: #b9b9b9;
+}
 
 #eduDiv{
     width: 100%;
     height: 95px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 30px;
     margin-right: auto;
     margin-left: auto;
     background-color: #f8f9fa;
@@ -193,6 +214,7 @@ p{
     width: 100%;
     height: 95px;
     padding-right: 15px;
+    padding-top: 30px;
     margin-top: 8%;
     padding-left: 15px;
     margin-right: auto;
@@ -219,6 +241,7 @@ p{
     width: 100%;
     height: 95px;
     padding-right: 15px;
+    padding-top: 30px;
     margin-top: 8%;
     padding-left: 15px;
     margin-right: auto;
@@ -232,10 +255,43 @@ p{
     width: 100%;
     height: 95px;
     padding-right: 15px;
+    padding-top: 30px;
     margin-top: 8%;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     background-color: #f8f9fa;
     text-align: center;
+}
+#ppStuff{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-align: left;
+}
+
+#skillsStuff{
+    margin-top: 0px !important;
+    width: 100%;
+    height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-align: left;
+}
+#skillsStuff ul{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 100px;
 }
